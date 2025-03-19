@@ -1,0 +1,20 @@
+{
+  "name": "Copy acf name",
+  "description": "Copy acf name field",
+  "version": "1.0",
+  "manifest_version": 3,
+  "action": {
+	"default_popup": "index.html",
+	"default_icon": "icon.svg"
+  },
+  "content_scripts": [
+	{
+	  "js": [
+		"scripts/main.js"
+	  ],
+	  "matches": [
+		"<all_urls>"
+	  ]
+	}
+  ]
+}
